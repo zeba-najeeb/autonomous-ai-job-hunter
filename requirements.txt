@@ -1,0 +1,6 @@
+pymupdf
+google-genai
+python-dotenv
+pydantic
+chromadb
+httpx

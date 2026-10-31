@@ -1,0 +1,19 @@
+# Virtual Environment
+venv/
+.venv/
+
+# Secrets & Environment Variables
+.env
+
+# Python Bytecode
+__pycache__/
+*.py[cod]
+
+# Ephemeral Vector DB & SQLite State
+data/chroma_db/
+*.db
+*.sqlite3
+
+# Candidate Uploaded CVs (Privacy Protection)
+data/*.pdf
+!data/.gitkeep
