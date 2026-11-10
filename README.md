@@ -1,5 +1,6 @@
 # 🚀 Autonomous AI Job Hunter & RAG Career Co-Pilot Agent
 
+[![Live App on Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://zeba-ai-job-hunter.streamlit.app)
 ![Python 3.12+](https://img.shields.io/badge/Python-3.12%2B-3776AB?logo=python&logoColor=white)
 ![Google Gemini](https://img.shields.io/badge/Google%20Gemini-2.5%20Flash%20%7C%20Embeddings-4285F4?logo=google&logoColor=white)
 ![ChromaDB](https://img.shields.io/badge/Vector%20DB-ChromaDB%20(Cosine)-FF6F00)
@@ -7,7 +8,7 @@
 ![Pydantic v2](https://img.shields.io/badge/Validation-Pydantic%20v2-E92063?logo=pydantic&logoColor=white)
 ![Architecture](https://img.shields.io/badge/Architecture-Agentic%20RAG%20%2B%20HITL-10B981)
 
-**Architect & Lead Developer:** [Zeba Najeeb](https://github.com/zeba-najeeb)  
+**Architect & Lead Developer:** [Zeba Najeeb](https://github.com/zeba-najeeb) | **🌐 Live Interactive App:** **[zeba-ai-job-hunter.streamlit.app](https://zeba-ai-job-hunter.streamlit.app)**  
 
 An enterprise-grade, **CV-agnostic, Human-in-the-Loop Agentic Career Co-Pilot**. Unlike rigid job scrapers hardcoded for a single user, this platform accepts **any candidate's PDF CV**, expands their target role into related industry titles, curates a stateful SQLite queue of regional job portals, extracts active jobs posted within the **last 30 days**, ranks every opening with a **RAG semantic match score (`0–100%`)**, and unlocks an **On-Demand AI Career Co-Pilot** exclusively for high-matching roles (`Score >= 70%`).
 
