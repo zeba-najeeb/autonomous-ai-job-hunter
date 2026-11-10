@@ -16,4 +16,5 @@ data/chroma_db/
 
 # Candidate Uploaded CVs (Privacy Protection)
 data/*.pdf
+data/uploaded_cvs/
 !data/.gitkeep

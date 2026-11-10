@@ -84,6 +84,7 @@ job_hunt/
 │   │   └── career_copilot.py        # Module 6A: >=70% gated CV optimizer, cover letter, upskiller & Q&A
 │   └── agent/
 │       └── workflow.py              # Module 6B: End-to-end Human-in-the-Loop Agentic Orchestrator
+├── app.py                           # Interactive 3-Zone Streamlit Web Application UI
 ├── .env.example                     # Safe environment template
 ├── .gitignore                       # Protects .env, venv, candidate PDFs, and local DBs
 ├── requirements.txt                 # Production dependencies
@@ -146,13 +147,19 @@ copy .env.example .env
 GEMINI_API_KEY=your_actual_gemini_api_key_here
 ```
 
-### 3. Run the End-to-End Interactive Agent Orchestrator
+### 3. Launch the Interactive 3-Zone Web Application (Streamlit)
+Run the web UI locally on `http://localhost:8501`:
+```powershell
+streamlit run app.py
+```
+
+### 4. Or Run the End-to-End Interactive CLI Orchestrator
 Place any candidate PDF CV inside the `data/` folder (e.g., `data/ZebaNajeeb_CV.pdf`) and run:
 ```powershell
 python -m src.agent.workflow
 ```
 
-### 4. Run Individual Modules Standalone (Unit Verification)
+### 5. Run Individual Modules Standalone (Unit Verification)
 ```powershell
 # Module 1A & 1B: CV Parser & Smart Role Expander
 python -m src.profile.parser

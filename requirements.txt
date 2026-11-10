@@ -4,3 +4,4 @@ python-dotenv
 pydantic
 chromadb
 httpx
+streamlit
